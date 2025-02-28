@@ -1,97 +1,70 @@
-# WatchAnywhere
+# Getting Started with Create React App
 
-# 🎥 WatchAnywhere
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> **Votre solution complète pour gérer vos fichiers M3U, vos playlists IPTV et explorer vos chaînes TV préférées sur n'importe quel appareil.**
+## Available Scripts
 
-![Logo WatchAnywhere](public/logo.png)
+In the project directory, you can run:
 
----
+### `npm start`
 
-### 📝 Description
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**WatchAnywhere** est une application web qui vous permet de :
-- Importer et gérer des fichiers M3U.
-- Créer et sélectionner des profils personnalisés (nom d'utilisateur, âge, image de profil).
-- Accéder à vos contenus IPTV et chaînes TV en direct grâce à un lecteur facile à utiliser.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Que ce soit pour vos films, séries ou chaînes TV préférées, WatchAnywhere s'assure que tout est organisé et disponible à portée de main !
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🚀 Fonctionnalités clé
+### `npm run build`
 
-- **Gestion des profils** :
-  - Ajoutez des profils utilisateurs en incluant un prénom, une image et un âge.
-  - Sélectionnez, désélectionnez et supprimez des profils rapidement.
-  - Visualisez le profil sélectionné directement dans la barre de navigation.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Lecteur M3U entièrement fonctionnel** :
-  - Prise en charge des fichiers de playlist M3U.
-  - Permet de visualiser les flux TV des chaînes en direct (nécessite l'import des fichiers M3U).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Interface utilisateur intuitive :**
-  - Système rapide et facilement navigable.
-  - Responsive : Accessible sur mobile, tablette et desktop.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Personnalisation dynamique :**
-  - Titre, description et autres métadonnées personnalisées grâce au composant `Head`.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 📦 Installation et Démarrage
-Installez les dépendances nécessaires :
-Assurez-vous d’avoir Node.js installé sur votre machine, puis exécutez la commande suivante dans le terminal :
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-``` npm install
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Démarrez le serveur de développement local :
-Lancez l'application en mode développement :
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-``` npm start
+## Learn More
 
-### Ensuite, ouvrez http://localhost:3000 dans votre navigateur.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Build de production (facultatif) :
-Si vous souhaitez générer une version optimisée pour le déploiement, exécutez :
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-``` npm run build
+### Code Splitting
 
-### 📷 Capture d'écran (Screenshots)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-#### Interface principale (Sélection d'un profil)
-https://prnt.sc/m64BMkymIGBO
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### 📦 Installation locale
+### Making a Progressive Web App
 
-Suivez ces instructions pour cloner et exécuter une version locale de ce projet :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. **Clonez le projet depuis GitHub** :
-   ```bash
-   git clone https://github.com/cyb3rt123/WatchAnywhere.git
-   cd WatchAnywhere
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-🛠️ Dépendances principales
-Voici les principales bibliothèques utilisées dans ce projet :
+### Deployment
 
-React JS : Framework JavaScript pour la création d'interfaces utilisateur.
-React Router DOM : Pour gérer la navigation à travers plusieurs vues/pages.
-React Helmet : Pour la gestion dynamique des balises <head> (SEO, favicon, etc.).
-Tailwind CSS : Framework CSS utilitaire pour un développement rapide.
-⚡ Fonctionnalités à venir
-⚙️ Support natif pour les flux vidéo en direct (streaming HLS).
-🔍 Recherche et filtrage des chaînes dans les fichiers M3U.
-📱 Application mobile native pour Android et iOS.
-🤝 Contributions
-Les contributions sont les bienvenues ! Si vous souhaitez contribuer, suivez ces étapes :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Fork le projet
-Créez une branche pour votre fonctionnalité (git checkout -b feature/ma-fonctionnalite)
-Commitez vos modifications (git commit -m 'Ajout de ma fonctionnalité')
-Poussez vers votre fork (git push origin feature/ma-fonctionnalite)
-Ouvrez une Pull Request
-📄 Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
